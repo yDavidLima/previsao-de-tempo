@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="screen">
+        <div class="screen-junior">
+            <div class="placeholder-button">
+            <input id="search" autofocus placeholder="Digite o Nome da Cidade..." type="text">
+            <button onclick="cityTime()" id="button-search">    <svg class="img-lupa" fill="#000000" width="50px" height="50px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.035,18.069a7.981,7.981,0,0,0,3.938-1.035l3.332,3.332a2.164,2.164,0,0,0,3.061-3.061l-3.332-3.332A8.032,8.032,0,0,0,4.354,4.354a8.034,8.034,0,0,0,5.681,13.715ZM5.768,5.768A6.033,6.033,0,1,1,4,10.035,5.989,5.989,0,0,1,5.768,5.768Z"/></svg>
+            </button> 
+            <!-- onclick="cityTime()" -->
+            </div>
+
+            
+            <h1 class="city">Tempo em São Paulo</h1>
+            <p class="graus">17º</p>
+        
+                
+            <div class="situation-display">
+            <img class="img" src="./img/04n.png">
+            <p class="weather-situation">Com Nuvens</p>
+            </div>
+
+            <p class="porcentagem">Umidade:</p>
+        </div>
+
+
+</div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
